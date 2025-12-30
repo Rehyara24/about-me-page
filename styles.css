@@ -1,0 +1,164 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background: #fdfbff;
+      color: #333;
+    }
+
+    
+    nav {
+      background: #ffb6c1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      
+    
+      
+    }
+
+    nav h1 {
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 500;
+      
+    }
+
+    nav ul li a:hover {
+      color: #ffe4e1;
+    }
+
+    
+    #home {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: linear-gradient(to right, #ffb6c1, #ffc0cb);
+      color: white;
+      
+    }
+
+    #home h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    #home p {
+      font-size: 1.2rem;
+    }
+
+    
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #444;
+      position: relative;
+    }
+
+    section h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #ffb6c1;
+      margin: 0.5rem auto 0;
+      border-radius: 2px;
+    }
+
+    
+    #about p {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+    }
+
+  
+    .project {
+      background: white;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+    }
+
+    .project h3 {
+      color: #ff69b4;
+      margin-bottom: 0.5rem;
+    }
+
+  
+    #skills ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      list-style: none;
+    }
+
+    #skills li {
+      background: #ffe4e1;
+      padding: 0.7rem 1.2rem;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    #skills li:hover {
+      background: #ffb6c1;
+      color: white;
+    }
+
+    
+    #contact p {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    #contact a {
+      color: #ff69b4;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    
+    footer {
+      background: #ffb6c1;
+      text-align: center;
+      padding: 1rem;
+      color: white;
+      margin-top: 2rem;
+    }
